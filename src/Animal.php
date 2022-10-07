@@ -4,9 +4,9 @@ namespace App;
 
     abstract class Animal{
 
-        private string $name;
+        private $name;
 
-        public function __construct(string $name) // Instanciation d'un objet
+        public function __construct(string $name) // Servira lors de l'instanciation d'un objet
         {
             $this->name = $name;
         }
